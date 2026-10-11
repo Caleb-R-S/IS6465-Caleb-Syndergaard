@@ -1,0 +1,12 @@
+AI tool used:
+ChatGPT, accessed through Copilot in VS Code.
+
+Prompts used:
+- "Here is my assignment description, could you check that I have completed all stated requirements?"
+- "Add the required bootstrap grid to the form. Then create the ai-use.txt file and explain that you helped verify I met assignment requirements and you helped me add the bootstrap grid"
+
+How AI helped:
+The assistant reviewed the project against the assignment requirements and identified missing or incomplete items. It helped add a responsive Bootstrap grid to the tutoring request form, with the fields stacked on narrow screens and displayed in two columns on wider screens.
+
+Suggestion tested, revised, or rejected:
+The assistant suggested using Bootstrap's .row and responsive .col-12 .col-md-6 classes for the form fields. I used this structure and revised the custom stylesheet to remove its conflicting CSS grid placement rules, allowing the Bootstrap grid to control the form layout.
