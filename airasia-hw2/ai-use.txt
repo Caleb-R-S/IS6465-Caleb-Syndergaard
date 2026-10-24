@@ -1,0 +1,14 @@
+AI tool used:
+Copilot Chat in VS Code, powered by an AI assistant.
+
+Prompts used:
+1. "I am going to upload a wireframe diagram that I created for a previous assignment. I need you to help me flesh out the base HTML for them. Here is the assignment description: [AirAsia Rewards Redemption System HW2 requirements and rubric]."
+2. "Please organize those files into the structure specified in the assignment (most of these files were put into the top directory of the repository)" 
+
+How AI supported the work:
+AI helped translate the five HW2 page requirements and the HW1 draw.io wireframes into semantic HTML page structures, accessible labeled form controls, navigation links, a shared responsive stylesheet, and a local gift-card illustration. 
+I reviewed the generated pages and verified the required paths and form actions. The pages contain HTML and CSS only; they do not use PHP logic, a database, or JavaScript.
+
+Example of a suggestion tested or changed:
+Copilot recommended using an SVG over a png for the gift card image. SVG's have the advantage of not losing resolution when they are scaled up or down.
+I tested the browser in varying size and orientation configurations to ensure that the produced image always looked clean and sharp.

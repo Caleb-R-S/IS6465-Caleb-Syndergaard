@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net" pages="6">
+  <diagram name="1. Login" id="-sVIikvan9ZXPnVnv34F">
+    <mxGraphModel dx="2013" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;" value="AirAsia Rewards - Login" vertex="1">
+          <mxGeometry height="40" width="330" x="260" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;fontSize=16;align=center;verticalAlign=middle;" value="&lt;h3 align=&quot;center&quot;&gt;Username&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="220" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontColor=#999999;align=left;spacingLeft=8;" value="Enter username" vertex="1">
+          <mxGeometry height="30" width="250" x="350" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;fontSize=16;align=center;verticalAlign=middle;" value="&lt;h3 align=&quot;center&quot;&gt;Password&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="220" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontColor=#999999;align=left;spacingLeft=8;" value="Enter password" vertex="1">
+          <mxGeometry height="30" width="250" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Login" vertex="1">
+          <mxGeometry height="40" width="300" x="275" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="text;html=1;fontSize=14;fontStyle=2;align=center;" value="Successful login redirects to the Gift Card List page" vertex="1">
+          <mxGeometry height="30" width="350" x="250" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" style="endArrow=block;html=1;strokeWidth=2;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="420" as="sourcePoint" />
+            <mxPoint x="424" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2. Gift Card List" id="qVn9Fi1r-N_jWXkgWkWj">
+    <mxGraphModel dx="860" dy="1334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;fontSize=24;fontStyle=1;align=center;" value="AirAsia Rewards - Gift Card List" vertex="1">
+          <mxGeometry height="40" width="430" x="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;fontSize=16;fontColor=#0000EE;fontStyle=4;" value="+ Add Gift Card" vertex="1">
+          <mxGeometry height="30" width="140" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="text;html=1;fontSize=16;fontColor=#0000EE;fontStyle=4;" value="+ Add Customer" vertex="1">
+          <mxGeometry height="30" width="140" x="590" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-15" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="270" width="360" x="40" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="9msb5JG5Dw-WmGPpMYwE-15" style="shape=rectangle;round=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;arcSize=5;absoluteArcSize=0;" value="Gift Card Image" vertex="1">
+          <mxGeometry height="229.70149253731344" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="9msb5JG5Dw-WmGPpMYwE-15" style="text;html=1;fontSize=13;fontStyle=2;align=left;" value="Click image or card name → Gift Card Details" vertex="1">
+          <mxGeometry height="20.149253731343283" width="192.55813953488374" x="66.97674418604652" y="249.8507462686567" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-12" parent="9msb5JG5Dw-WmGPpMYwE-15" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#666666,#EDEDED);bottom=0" value="" vertex="1">
+          <mxGeometry height="40.298507462686565" width="360" y="201.49253731343285" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="9msb5JG5Dw-WmGPpMYwE-15" style="text;html=1;fontSize=16;fontColor=#0000EE;fontStyle=4;align=center;verticalAlign=middle;" value="&lt;div&gt;Amazon Gift Card&lt;/div&gt;&lt;div&gt;5,000 points&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="95" y="201.78999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-16" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="270" width="360" x="450" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-17" parent="9msb5JG5Dw-WmGPpMYwE-16" style="shape=rectangle;round=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;arcSize=5;absoluteArcSize=0;" value="Gift Card Image" vertex="1">
+          <mxGeometry height="229.70149253731344" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-18" parent="9msb5JG5Dw-WmGPpMYwE-16" style="text;html=1;fontSize=13;fontStyle=2;align=left;" value="Click image or card name → Gift Card Details" vertex="1">
+          <mxGeometry height="20.149253731343283" width="192.55813953488374" x="66.97674418604652" y="249.8507462686567" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-19" parent="9msb5JG5Dw-WmGPpMYwE-16" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#666666,#EDEDED);bottom=0" value="" vertex="1">
+          <mxGeometry height="40.298507462686565" width="360" y="201.49253731343285" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-20" parent="9msb5JG5Dw-WmGPpMYwE-16" style="text;html=1;fontSize=16;fontColor=#0000EE;fontStyle=4;align=center;verticalAlign=middle;" value="&lt;div&gt;Starbucks Gift Card&lt;/div&gt;&lt;div&gt;7,500 points&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="95" y="201.78999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-21" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="270" width="360" x="40" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-22" parent="9msb5JG5Dw-WmGPpMYwE-21" style="shape=rectangle;round=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;arcSize=5;absoluteArcSize=0;" value="Gift Card Image" vertex="1">
+          <mxGeometry height="229.70149253731344" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-24" parent="9msb5JG5Dw-WmGPpMYwE-21" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#666666,#EDEDED);bottom=0" value="" vertex="1">
+          <mxGeometry height="40.298507462686565" width="360" y="201.49253731343285" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-25" parent="9msb5JG5Dw-WmGPpMYwE-21" style="text;html=1;fontSize=16;fontColor=#0000EE;fontStyle=4;align=center;verticalAlign=middle;" value="&lt;div&gt;Amazon Gift Card&lt;/div&gt;&lt;div&gt;10,000 points&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="95" y="201.78999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-31" parent="9msb5JG5Dw-WmGPpMYwE-21" style="text;html=1;fontSize=13;fontStyle=2;align=left;" value="Click image or card name → Gift Card Details" vertex="1">
+          <mxGeometry height="20.149253731343283" width="192.55813953488374" x="60" y="249.85000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-26" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="270" width="360" x="450" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-27" parent="9msb5JG5Dw-WmGPpMYwE-26" style="shape=rectangle;round=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;arcSize=5;absoluteArcSize=0;" value="Gift Card Image" vertex="1">
+          <mxGeometry height="229.70149253731344" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-28" parent="9msb5JG5Dw-WmGPpMYwE-26" style="text;html=1;fontSize=13;fontStyle=2;align=left;" value="Click image or card name → Gift Card Details" vertex="1">
+          <mxGeometry height="20.149253731343283" width="192.55813953488374" x="66.97674418604652" y="249.8507462686567" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-29" parent="9msb5JG5Dw-WmGPpMYwE-26" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#666666,#EDEDED);bottom=0" value="" vertex="1">
+          <mxGeometry height="40.298507462686565" width="360" y="201.49253731343285" as="geometry" />
+        </mxCell>
+        <mxCell id="9msb5JG5Dw-WmGPpMYwE-30" parent="9msb5JG5Dw-WmGPpMYwE-26" style="text;html=1;fontSize=16;fontColor=#0000EE;fontStyle=4;align=center;verticalAlign=middle;" value="&lt;div&gt;Target Gift Card&lt;/div&gt;&lt;div&gt;12,000 points&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="95" y="201.78999999999996" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3. Gift Card Details" id="hyNMRUzRsbbtI1WWHlr3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;fontSize=24;fontStyle=1;align=center;" value="AirAsia Rewards - Gift Card Details" vertex="1">
+          <mxGeometry height="40" width="460" x="195" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Gift Card Image" vertex="1">
+          <mxGeometry height="150" width="220" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=16;align=left;spacingLeft=14;spacingTop=12;" value="Card ID: 102\n\nCard Name: Amazon Gift Card\n\nCard Type: Retail\n\nCard Value: $25.00\n\nPoints Required: 10,000" vertex="1">
+          <mxGeometry height="260" width="330" x="380" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;fontSize=13;fontStyle=2;align=center;" value="Read-only card information - not editable fields" vertex="1">
+          <mxGeometry height="25" width="350" x="370" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="text;html=1;fontSize=16;fontColor=#0000EE;fontStyle=4;" value="Update Gift Card" vertex="1">
+          <mxGeometry height="30" width="150" x="250" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;fontSize=16;fontColor=#0000EE;fontStyle=4;" value="Delete Gift Card" vertex="1">
+          <mxGeometry height="30" width="150" x="460" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="text;html=1;fontSize=13;fontStyle=2;align=center;" value="Delete is a PHP action; a separate display wireframe is not required." vertex="1">
+          <mxGeometry height="25" width="450" x="200" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4. Add Gift Card" id="akwqsAoJZXvS-N4_dkKQ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;fontSize=24;fontStyle=1;align=center;" value="AirAsia Rewards - Add Gift Card" vertex="1">
+          <mxGeometry height="40" width="440" x="205" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;fontSize=16;align=right;" value="Card Name" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="35" width="250" x="360" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;fontSize=16;align=right;" value="Card Type" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;" value="Select card type ▼" vertex="1">
+          <mxGeometry height="35" width="250" x="360" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;fontSize=16;align=right;" value="Card Value" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;" value="$" vertex="1">
+          <mxGeometry height="35" width="250" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="text;html=1;fontSize=16;align=right;" value="Points Required" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="35" width="250" x="360" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Submit" vertex="1">
+          <mxGeometry height="40" width="100" x="360" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Cancel / Back" vertex="1">
+          <mxGeometry height="40" width="120" x="490" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="text;html=1;fontSize=13;fontStyle=2;align=center;" value="Card ID is automatically generated and is intentionally not an input field. Submit → Gift Card List" vertex="1">
+          <mxGeometry height="35" width="470" x="180" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="5. Update Gift Card" id="eJJ_NybgSZXhQlOq7EuW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;fontSize=24;fontStyle=1;align=center;" value="AirAsia Rewards - Update Gift Card" vertex="1">
+          <mxGeometry height="40" width="470" x="190" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;fontSize=16;align=right;" value="Card Name" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;" value="Amazon Gift Card" vertex="1">
+          <mxGeometry height="35" width="250" x="360" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;fontSize=16;align=right;" value="Card Type" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;" value="Retail ▼" vertex="1">
+          <mxGeometry height="35" width="250" x="360" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;fontSize=16;align=right;" value="Card Value" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;" value="$25.00" vertex="1">
+          <mxGeometry height="35" width="250" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="text;html=1;fontSize=16;align=right;" value="Points Required" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;align=left;spacingLeft=8;" value="10,000" vertex="1">
+          <mxGeometry height="35" width="250" x="360" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Update / Submit" vertex="1">
+          <mxGeometry height="40" width="125" x="340" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Cancel / Back" vertex="1">
+          <mxGeometry height="40" width="120" x="490" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="text;html=1;fontSize=13;fontStyle=2;align=center;" value="Existing record values are prepopulated. Submit → Gift Card List" vertex="1">
+          <mxGeometry height="25" width="450" x="200" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="6. AI Use and Design Rationale" id="SSPnVuGK-h8oUkQzOMe1">
+    <mxGraphModel dx="731" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;fontSize=24;fontStyle=1;align=center;" value="AI Use and Design Rationale" vertex="1">
+          <mxGeometry height="40" width="490" x="180" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;fontSize=14;align=left;verticalAlign=top;spacingLeft=15;spacingRight=15;spacingTop=12;" value="&lt;div&gt;Prompts:&lt;/div&gt;&lt;div&gt;1.&amp;nbsp;&lt;p&gt;&lt;span&gt;The following text contains an assignment description for the first leg of a multi-task homework assignment. Our goal is to follow the requirements outlined in the pdf to the letter and design a website to redeem points for gift-cards. This first portion is to create wire-frame diagrams for each of the pages specified in the assignment description. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Can you help me distill the information in the requirements and the instructions given in the assignment description into simple actionable steps that, when completed, will satisfy all requirements for this assignment?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;2.&amp;nbsp;&lt;/span&gt;Can you create a draw.io project for these wireframes?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;AI was able to help summarize the assignment into direct steps that I could take to complete the work. They were clear, requirement directed steps.&lt;/p&gt;&lt;p&gt;I used AI to generate a base set to wireframes for each of the 5 pages. These had to be revised and adjusted as there were context based errors and the UI itself needed to be cleaned up (there were arrows running over text boxes, etc.).&lt;/p&gt;&lt;p&gt;The &quot;Gift Card List&quot; wireframe was especially disorganized. I recreated that one completely.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="535" width="690" x="80" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;verticalAlign=top;spacingLeft=15;spacingRight=15;spacingTop=12;" value="Design rationale (approximately 185 words):\n\nThese wireframes translate the stated AirAsia mileage-rewards requirements into a simple, consistent set of pages for redeeming gift cards with reward points. The Login page contains only the username, password, and Login controls required for entry to the application, and its flow note shows that a successful login reaches the Gift Card List page. The list page presents each gift card with an image, name, and points required so users can compare redemption options quickly. The image and card name are visually identified as links to the details page. The top links to Add Gift Card and Add Customer match the required administrative navigation. The details page intentionally uses read-only text rather than editable fields, while still exposing Update and Delete links for the selected card. Add and Update forms use the Gift Card table attributes that are editable: Card Name, Card Type, Card Value, and Points Required. Card ID is not shown as an input because it is generated automatically. The Update page displays sample existing values, making the edit purpose clear. Submit controls on both forms direct the user back to the Gift Card List page, reflecting the documented flow." vertex="1">
+          <mxGeometry height="390" width="690" x="80" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
