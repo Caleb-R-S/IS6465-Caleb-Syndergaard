@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title description">
+  <title id="title">Gift card</title>
+  <desc id="description">An illustrated red gift card with a wrapped present icon.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e51c27"/>
+      <stop offset="1" stop-color="#a90814"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="440" fill="#fff0f0"/>
+  <circle cx="675" cy="92" r="145" fill="#f9d7d8"/>
+  <circle cx="82" cy="390" r="110" fill="#f9d7d8"/>
+  <rect x="105" y="72" width="590" height="296" rx="28" fill="url(#background)"/>
+  <path d="M105 112c145 72 445 72 590 0v-12c0-15-13-28-28-28H133c-15 0-28 13-28 28z" fill="#f23841" opacity=".55"/>
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="15">
+    <path d="M400 159v139M330 228h140"/>
+    <path d="M400 159c-2-44-61-68-78-36-17 33 32 65 78 36zm0 0c2-44 61-68 78-36 17 33-32 65-78 36z"/>
+  </g>
+  <text x="400" y="333" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="5" text-anchor="middle">GIFT CARD</text>
+</svg>

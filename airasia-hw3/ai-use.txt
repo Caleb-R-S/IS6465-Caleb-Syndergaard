@@ -1,0 +1,15 @@
+AI tool used:
+- GitHub Copilot in VS Code
+- The built-in AI assistant used during implementation and testing
+
+Prompts used:
+1. tarting from airasia-hw2, please begin implementation on the following assignment. I have also uploaded a few pdfs that are the lectures for the past few weeks. Please follow the examples  and coding structure presented in the lectures.
+
+How AI supported the work:
+AI helped translate the assignment requirements into a working PHP structure, PDO database access pattern, validation functions, and test harness. It also suggested a consistent template layout and supported the conversion of static pages into database-backed CRUD pages.
+
+One AI suggestion tested, revised, or rejected:
+I verified and explored the test data created by the generated "seed.sql" script.
+
+How I verified the final code and database behavior:
+I ran PHP syntax checks for every page, created the SQLite schema and seed data, tested the application through the local PHP server, and verified the list, details, add, update, delete, and invalid-ID flows with browser and curl requests. I also ran the validation harness and confirmed that all required PASS/FAIL checks succeeded.
