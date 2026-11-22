@@ -1,0 +1,27 @@
+<?php
+require_once dirname(__DIR__) . '/repositories/userPDO.php';
+
+function startSecureSession() {
+    if (session_status() === PHP_SESSION_ACTIVE) { return; }
+    $https = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off';
+    session_set_cookie_params(['lifetime' => 0, 'path' => '/', 'secure' => $https, 'httponly' => true, 'samesite' => 'Lax']);
+    session_start();
+}
+
+function csrfToken() { startSecureSession(); if (empty($_SESSION['csrf_token'])) { $_SESSION['csrf_token'] = bin2hex(random_bytes(32)); } return $_SESSION['csrf_token']; }
+function verifyCsrfToken($input) { startSecureSession(); $token = (string)($input['csrf_token'] ?? ''); if ($token === '' || empty($_SESSION['csrf_token']) || !hash_equals($_SESSION['csrf_token'], $token)) { http_response_code(403); exit('Invalid request token. Please return to the form and try again.'); } }
+function isLoggedIn() { startSecureSession(); return !empty($_SESSION['user_id']); }
+
+function loginSession($user) { startSecureSession(); session_regenerate_id(true); $_SESSION['user_id'] = (int)$user['user_id']; $_SESSION['display_name'] = $user['full_name']; $_SESSION['role'] = $user['role']; $_SESSION['last_activity'] = time(); csrfToken(); }
+function logoutSession() { startSecureSession(); $_SESSION = []; if (ini_get('session.use_cookies')) { $p = session_get_cookie_params(); setcookie(session_name(), '', time() - 42000, $p['path'], $p['domain'] ?? '', $p['secure'], $p['httponly']); } session_destroy(); }
+
+function requireLogin($pdo) {
+    startSecureSession();
+    if (empty($_SESSION['user_id'])) { header('Location: login.php', true, 303); exit; }
+    if (time() - (int)($_SESSION['last_activity'] ?? 0) > 1200) { logoutSession(); header('Location: login.php?expired=1', true, 303); exit; }
+    $user = findUserById($pdo, (int)$_SESSION['user_id']);
+    if (!$user || $user['status'] !== 'Active') { logoutSession(); header('Location: login.php?inactive=1', true, 303); exit; }
+    $_SESSION['last_activity'] = time(); $_SESSION['display_name'] = $user['full_name']; $_SESSION['role'] = $user['role'];
+    return $user;
+}
+function requireRole($user, $allowedRoles) { if (!in_array($user['role'], $allowedRoles, true)) { http_response_code(403); exit('You are not authorized to perform this action.'); } }
